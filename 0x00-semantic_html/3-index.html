@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="A blog post about semantic HTML and accessibility practices"
+    />
+    <meta name="keywords" content="HTML, Semantic, Accessibility, Blog, SEO" />
+    <meta name="author" content="Nada" />
+    <title>Semantic Html Blog Post</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Blog</h1>
+      <nav>
+        <ul>
+          <li><a>Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <header>
+          <h2>understanding Semantic Html</h2>
+          <p>Published on <time datetime="”2024-09-10”"> September 10</time></p>
+        </header>
+        <section>
+          <h3>Introduction</h3>
+          <p>
+            Semantic HTML helps improve the accessibility and SEO of your
+            website. In this post, we’ll explore its benefits and how to
+            implement it.
+          </p>
+        </section>
+        <section>
+          <h3>MAin Content</h3>
+          <p>
+            ### Using elements like
+
+            <code>&lt;article&gt;</code>
+            <code>&lt;section&gt;</code>
+            <code>&lt;header&gt;</code>
+          </p>
+          <figure>
+            <img src="" alt="example" />
+            <figcaption>An illustration of semantic HTML elements</figcaption>
+          </figure>
+        </section>
+        <section>
+          <h3>Conclusion</h3>
+          <p>
+            By adopting semantic HTML, you enhance your site's accessibility,
+            improve SEO, and make the content easier to navigate
+          </p>
+          <footer>
+            <p>written by<name>Nada</name></p>
+            <p>Published on 2024-09-11</p>
+          </footer>
+        </section>
+      </article>
+      <section>
+        <!-- ARIA roles for better accessibility in a form -->
+        <form action="#" method="POST" aria-labelledby="form-title" role="form">
+          <div>
+            <label for="Name">Name</label>
+            <input type="text" id="name" name="name" aria-required="true" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" aria-required="true" />
+          </div>
+          <div>
+            <button type="submit" aria-label="Submit the form">Submit</button>
+          </div>
+          <div aria-live="polite" role="alert">
+            <!-- This area will announce success or error messages -->
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>All rights reserved @2025-copyrights</footer>
+  </body>
+</html>
