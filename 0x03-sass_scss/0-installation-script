@@ -1,0 +1,25 @@
+nstall Sass Globally (Command Line)
+Ensure Node.js is Installed:
+Check if Node.js is installed by running node -v in your terminal. If not, download and install it from nodejs.org.
+Install Sass Globally:
+Run the following command in your terminal to install Sass globally using npm:
+bash
+
+npm install -g sass
+This allows you to use the sass command anywhere on your system.
+Verify Installation:
+Check if Sass is installed by running:
+bash
+
+sass --version
+You should see the version number (e.g., 1.77.8 as of the latest release).
+Use Sass in Your Project:
+Navigate to your project directory.
+Compile a Sass file to CSS. For example:
+bash
+
+sass input.scss output.css
+To watch for changes and auto-compile:
+bash
+
+sass --watch input.scss:output.css
